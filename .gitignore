@@ -1,0 +1,6 @@
+vendor
+.idea/*.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**.iml
+.idea_modules/

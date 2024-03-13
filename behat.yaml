@@ -1,0 +1,7 @@
+default:
+    suites:
+        default:
+            paths:
+                - tests/Scenarios
+            contexts:
+                - Tests\Context\AccueilContext
