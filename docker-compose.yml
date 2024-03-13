@@ -2,10 +2,6 @@ services:
   php:
     image: webdevops/php-dev:8.3-alpine
     working_dir: /app
-    user: ${UID}:${GID}
-    environment:
-      UID: ${UID}
-      GID: ${GID}
     tty: true
     stdin_open: true
     volumes:
